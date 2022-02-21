@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+}
+
+nav {
+	flex: 1;
+	text-align: center;
+}
+
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #555;
+}
+
+p {
+	color: #555;
+}
+
+.container {
+	max-width: 1350px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.top-header {
+	background-color: #eecc76;
+}
+
+.shopping-cart {
+	background-color: white;
+	padding: 10px;
+}
+
+.shopping-cart label {
+	margin-left: 10px;
+}
+
+.navbar-2 {
+	display: flex;
+	align-items: center;
+	padding: 30px;
+}
+
+.dropdown-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #f1f1f1;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.search-bar {
+	border: 1px solid grey;
+}
+
+.search-bar img {
+	position: relative;
+    left: 10px;
+    top: 5px;
+}
+
+.search-bar input {
+	border-style: none;
+	padding: 10px;
+}
+
+.spotlight {
+	overflow: hidden;
+    background-image: url(Assets/Art-Images/spot-background.jpg);
+    padding-bottom: 200px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.spotlight img {
+	pointer-events: none;
+  	position: absolute;
+  	width: 100%;
+  	height: 75%;
+  	z-index: -1;
+}
+
+.row {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.spotlight .row .spot-title {
+	border: 1px solid grey;
+    border-radius: 50px 0px 50px 0px;
+    padding: 101px 50px 15px;
+    background-color: #303b50;
+    margin-top: 150px;
+    font-family: 'Allegreya-ExtraBold';
+    text-align: center;
+    opacity: 0.8;
+}
+
+.spot-title-logo img {
+	align-items: center;
+    position: relative;
+    top: 245px;
+    z-index: 1;
+}
+
+.spot-title .texts {
+	color: white;
+	opacity: 1.0;
+	font-size: 25px;
+	line-height: 70px;
+}
+
+.main-body {
+	background-color: white;
+}
+
+.welcome-body {
+	padding: 70px;
+	text-align: center;
+}
+
+.welcome-body .row {
+	flex-direction: column;
+}
+
+.welcome-body h1 {
+	font-family: 'Allegreya-ExtraBold';
+	color: #555;
+}
+
+.col-2 {
+	flex-basis: 50%;
+	min-width: 200px;
+	text-align: center;
+}
+
+.col-2 img {
+	max-width: 100%;
+	padding: 50px 0;
+}
+
+.col-2 h2 {
+	  position: relative;
+    bottom: 110px;
+    color: white;
+    text-shadow: 1px 2px 15px black;
+}
+
+.banners {
+	padding: 0 300px;
+}
+
+.featured-products {
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	font-family: 'Allegreya-ExtraBold';
+}
+
+.col-4 {
+	flex-basis: 20%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	transition: transform 0.5s;
+	border: 1px solid gray;
+    border-radius: 35px 0 35px 0;
+}
+
+.col-4:hover {
+	transform:  translateY(-5px);
+}
+
+.col-4 img {
+	width: 100%;
+}
+
+.title {
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+}
+
+.footer {
+	padding: 50px;
+	background-image: url('Assets/Art-Images/footer-pattern.png');
+	background-color: black;
+    opacity: 0.8;
+}
+
+.footer h4 {
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
